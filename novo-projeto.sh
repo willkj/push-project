@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-##Script para automação de versionamento de projetos###
+##Script para automação de versionamentos novos de projetos###
 ### ~ Versão 1.0.0 ~ ###
 ############################################################
 
@@ -69,10 +69,10 @@ echo "Virtualenv criado como $projeto"
 
 sleep 2
 cd $projeto/app
-echo "Instalando requirements..."
+#echo "Instalando requirements..."
 sleep 1
 
-pip install -r requirements.txt
+#pip install -r requirements.txt
 
 echo "Entrando na pasta..."
 sleep 2
